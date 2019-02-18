@@ -1,0 +1,7 @@
+---
+guideName: User Guides
+sections:
+  - path: adding-an-api.md
+    tocName: Adding an API
+  - path: creating-custom-guides.md
+    tocName: Custom Guides
