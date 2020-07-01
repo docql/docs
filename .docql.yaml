@@ -1,7 +1,26 @@
 ---
-guideName: User Guides
-sections:
-  - path: adding-an-api.md
-    tocName: Adding an API
-  - path: creating-custom-guides.md
-    tocName: Custom Guides
+version: 1.0
+customContent:
+  meta:
+    siteTitle: DocQL Docs | Beautiful docs & guides for your GraphQL APIs.
+    brandName: DocQL
+    brandLogo: "" # TODO: add our brand logo.
+    copyright: DocQL, LLC.
+    favicon: "" # TODO: add our favicon.
+
+  theme:
+    name: bootstrap4
+    customizations: {}
+
+  guide:
+    name: User Guides
+    dir: guides
+
+  # TODO: add overrides for the various schema landing pages.
+  # schema:
+  #   landing: string | null
+  #   objects: string | null
+  #   enums: string | null
+  #   inputs: string | null
+  #   scalars: string | null
+  #   directives: string | null
